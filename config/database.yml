@@ -19,7 +19,8 @@
 default: &default
   adapter: oracle_enhanced
   username: asairDJBrowser
-  password: <%= ENV['ASAIRDJBROWSER_DB_DEV_PASS'] %>
+  password: or@Cle
+#<%= ENV['ASAIRDJBROWSER_DB_DEV_PASS'] %>
 
 development:
   <<: *default
@@ -55,4 +56,4 @@ production:
   <<: *default
   database: xe
   username: asairDJBrowser
-  password: <%= ENV['ASAIRDJBROWSER_DB_PASS'] %>
+  password: or@Cle
