@@ -9,7 +9,7 @@ To achieve the goal a web app and a mobile app would be created. Moblie app shou
 
 == 1. Installation Prerequsites
 
-- Ruby 2.2.2
+- Ruby 2.1.6
 - Rails 4.2.3
 
 - Oracle 11g Express Database
