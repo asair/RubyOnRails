@@ -1,0 +1,13 @@
+== DEVELOPER BLOG
+
+=== 2015-07-04
+Made my first steps in Ruby... Looks like I made it all wrong with newest version under Windows.
+Starting installation from scratch:)
+
+Dev Kit Installation guide:
+https://github.com/oneclick/rubyinstaller/wiki/Development-Kit
+
+Also decided to use Oracle 11g Express database which seems a good way to get into troubles.
+Installed OCI8.
+Tried to install activerecord-oracle-adapter... not working.
+Changing configuration to use activerecord-oracle_enhanced-adapter

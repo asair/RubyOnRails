@@ -17,20 +17,20 @@
 #  cursor_sharing: similar
 #
 default: &default
-  adapter: oracle
+  adapter: oracle_enhanced
   username: asairDJBrowser
   password: <%= ENV['ASAIRDJBROWSER_DB_DEV_PASS'] %>
 
 development:
   <<: *default
-  database: asairDJBrowserDevelopment
+  database: xe
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: asairDJBrowserTest
+  database: xe
 
 # As with config/secrets.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
@@ -53,6 +53,6 @@ test:
 #
 production:
   <<: *default
-  database: asairDJBrowserProduction
+  database: xe
   username: asairDJBrowser
   password: <%= ENV['ASAIRDJBROWSER_DB_PASS'] %>

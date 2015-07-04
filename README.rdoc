@@ -15,5 +15,6 @@ To achieve the goal a web app and a mobile app would be created. Moblie app shou
 - Oracle 11g Express Database
 
 - RubyOnRails connection to Oracle:
--- OCI8: gem install ruby-oci8 -v 1.0.4
+OCI8: gem install ruby-oci8 -v 1.0.4
+Actve Record Adapter: gem install activerecord-oracle_enhanced-adapter
 
